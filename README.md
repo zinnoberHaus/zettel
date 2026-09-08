@@ -14,7 +14,7 @@ Start with an issue that defines a user outcome, acceptance criteria and verific
 
 ## Local validation
 
-Requires Python 3.10+. Run `python3 scripts/validate.py`. This checks the planning repository, not application functionality.
+Requires Python 3.11+. Run `python3 scripts/validate.py`. This checks the planning repository, not application functionality.
 
 ## Portfolio
 
