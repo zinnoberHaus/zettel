@@ -15,5 +15,7 @@ for path in (root / ".codex/agents").glob("*.toml"):
         assert isinstance(role.get(field), str) and role[field].strip(), f"Missing {field}: {path}"
     assert role["name"] not in names, "Duplicate agent name"
     names.add(role["name"])
-assert names == {"product_researcher", "architect", "implementer", "verifier"}
+import json
+roster = json.loads((root / ".codex/roster.json").read_text())
+assert names == set(roster["agents"]), "Agent files and reviewed roster differ"
 print("Project agent configuration validated.")
