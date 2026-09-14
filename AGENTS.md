@@ -7,3 +7,5 @@ Implement scoped issues with acceptance criteria. Preserve the full product ambi
 Shared skills are maintained in zinnober-haus/.agents/skills; read them from a sibling checkout when bootstrapping or auditing releases. Coordinate file ownership before parallel work.
 
 The configured team lives in `.codex/agents`: product_researcher, architect, implementer and verifier. The parent coordinates up to three concurrent subagents. Shared role source: zinnober-haus/.codex; synchronize reviewed changes without overwriting product-specific configuration.
+
+Operational roles now include triage_manager, docs_maintainer, release_manager and security_reviewer. See .codex/roster.json for the reviewed local roster, and the umbrella registry/agents.json for triggers and handoffs. Shared ticket forms and lifecycle labels follow the umbrella docs/operations/ticketing.md.

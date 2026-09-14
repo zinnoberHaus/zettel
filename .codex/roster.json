@@ -1,0 +1,13 @@
+{
+  "source": "https://github.com/zinnoberHaus/zinnober-haus/blob/main/registry/agents.json",
+  "agents": [
+    "product_researcher",
+    "architect",
+    "implementer",
+    "verifier",
+    "triage_manager",
+    "docs_maintainer",
+    "release_manager",
+    "security_reviewer"
+  ]
+}
